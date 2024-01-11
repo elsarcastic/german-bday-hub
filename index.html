@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;family=Press+Start+2P&amp;display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <title>Galeria de Recompensas</title>
+    <script type="text/javascript" src="./index.js" defer=""></script>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+
+  <body>
+    <div class="topbar">
+      <h1>Galeria de <br> Recompensas</h1>
+      <div>
+        <p id="greetings"></p>
+        <p>Por aqui, você poderá acessar os vídeos-prêmio dos desafios que foram finalizados com sucesso. Sinta-se à vontade em passar o tempo que quiser conosco =)</p>
+      </div>
+    </div>
+    <section class="gallery">
+      <div class="row">
+        <div class="video">
+          <iframe src="videos/proneize.mp4" frameborder="0"></iframe>
+          <h3>Desafio 1</h3>
+        </div>
+        <div class="video">
+          <iframe src="videos/prtwoize.mp4" frameborder="0"></iframe>
+          <h3>Desafio 2</h3>
+        </div>
+        <div class="video">
+          <iframe src="videos/prthreeize.mp4" frameborder="0"></iframe>
+          <h3>Desafio 3</h3>
+        </div>
+      </div>
+    </section>
+    <div id= 'close' class="popup-video">
+      <span>&times;</span>
+      <video class="video-active" src="videos/proneize.mp4" muted autoplay controls></video>
+    </div>
+
+  </body>
+
+</html>
